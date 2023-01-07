@@ -68,6 +68,10 @@ section {
 .about-img img {
     max-width: 100%;
     width: 580px;
+    transition: 0.6s;
+}
+.about-img img:hover {
+    transform: scale(1.1);
 }
 .about-text {
     padding-left: 100px;
@@ -182,6 +186,9 @@ footer {
 }
 .foot-text p {
     margin-bottom: 10px;
+}
+.foot-text h4 {
+    text-transform: none;
 }
 .social i {
     font-size: 1.5rem;
